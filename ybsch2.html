@@ -1,0 +1,186 @@
+<!DOCTYPE html><!--22061123 하유주-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: white;
+  color: black;
+}
+#logo {
+  float: left;
+  margin: 37px 0 0 20px;
+}
+#menus {
+  float: left;
+}
+#top_menu {
+  text-align: right;
+  margin-top: 20px;
+}
+#main_menu {
+margin-top: 10px;
+font-family:'Noto Sans KR';
+font-size: 17px;
+color: white;
+width: 100%;
+display: block;
+}
+#main_menu li {
+  display: inline;
+  margin-left: 60px;
+  vertical-align: middle;
+}
+
+#main_menu a:hover {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+.header {
+  padding: 30px;
+  background: white;
+}
+.header h1 {
+  font-size: 35px;
+}
+.rightcolumn {
+  float: left;
+  width: 20%;
+  background-color: white;
+  padding-left: 70px;
+  font-family: 'Noto Sans KR';
+}
+.leftcolumn {
+  float: right;
+  width: 80%;
+  font-family: 'Noto Sans KR';
+  padding-left: 130px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.li_1 {
+  list-style-image: url('img/icon.png');
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: 'Noto Sans KR';
+}
+p {
+  line-height: 170%;
+}
+
+.p_1 {
+  font-size: 14px;
+}
+.center {
+  align-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.right {
+  float: right;
+}
+.bold {
+  font-family: 'Noto Sans KR';
+  color: red;
+}
+.white {
+  color: white;
+}
+.red {
+  color: red;
+}
+      </style>
+  </head>
+  <body>
+    <div class='header'>
+
+      <span id='main_menu'>
+        <li><a href="./index.html"><img src='./img/logo.png' width='200'></a></li>
+        <li><a href='./intro.html'>개요</a></li>
+        <li><a href='./bshh.html'>발생현황</a></li>
+        <li><a href='./grdg.html'>거리두기</a></li>
+        <li><a href='./ybsch.html'><span class='red'>예방수칙</span></a></li>
+    </div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><span class='bold'>관련영상</span></h2>
+      <br>
+      <table>
+        <tr>
+          <td> <video width="600" controls>
+          <source src="./img/video1.mp4" type="video/mp4"></video></td>
+       </tr>
+      </table>
+      <p>'코로나19' 예방 10가지 행동수칙</p>
+      <br>
+      <br>
+      <table>
+        <tr>
+          <td> <video width="600" controls>
+          <source src="./img/video2.mp4" type="video/mp4"></video></td>
+       </tr>
+      </table>
+      <p>'코로나19' 현황 브리핑 뉴스</p>
+
+<br><br>
+</div>
+</div>
+
+<div class="rightcolumn">
+  <div class="card">
+    <h2>필수예방수칙</h2>
+    <div><p> &nbsp; </p></div>
+    <div><p><a href="./ybsch.html">필수예방수칙</a></p></div>
+    <div><p><a href="./ybsch2.html"><span class='red'>관련영상</span></a></p></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright © 22061123 하유주</p>
+</div>
+
+  </body>
+</html>
